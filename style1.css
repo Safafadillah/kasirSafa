@@ -1,0 +1,150 @@
+a {
+    text-decoration: none;
+    color: white ;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #641818;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-left: 370px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button[value="kirim"],
+a.btn {
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    
+}
+
+button[value="cetak"],
+a.btn {
+    display: inline-block;
+    background-color: #ba0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+button[name="bayar"]
+a.btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+
+
+
+a.btn:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* margin-left: 330px; */
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #2b2b2b;  
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+button[name="bayar"] {
+    display: inline-block;
+    background-color: #bb0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solidx #000000;
+    border-radius: 5px;
+}
+
+button[name="kembali"] {
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solidx #000000;
+    border-radius: 5px;
+}
