@@ -19,7 +19,7 @@
     <label for="nama"><strong>Harga : </strong></label>
     <input type="number" id="harga" name="harga"><br></br>
     <button type="submit" name="submit" value="kirim"><i class='bx bx-plus'></i>TAMBAH</button>
-    <button type="submit" name="bayar" value="cetak"><i class='bx bxs-printer'></i><a href="session2.php">BAYAR</a></button>
+    <button type="submit" name="bayar" value="cetak"><i class='bx bxs-printer'></i><a href="index2.php">BAYAR</a></button>
 
   <?php  
     

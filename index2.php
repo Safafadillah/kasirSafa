@@ -53,11 +53,11 @@
         </table>
     </div>
     <div class="receipt-actions">
-        <form action="cetak.php" method="post">
+        <form action="index3.php" method="post">
             <label for="amountGiven">Yang Dibayarkan:</label>
             <input type="number" id="amountGiven" name="amountGiven" step="0.01">
             <button type="submit" name="bayar" onclick="calculateChange()">Bayar</button>
-            <button type="submit" name="kembali"> <a href="=index.php">Kembali</a></button>
+            <button type="submit" name="kembali"> <a href="index.php">Kembali</a></button>
         </form>
 
     </div>
